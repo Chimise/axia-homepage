@@ -17,7 +17,7 @@ import CardLink from './CardLink.vue';
         <img class="object-cover w-full h-full" :src="image" :alt="title" />
     </div>
     <div class="flex-1 p-6 bg-supplementary">
-        <h6 class="text-base md:text-xl text-primary font-medium">{{ title }}</h6>
+        <h6 class="text-base md:text-xl text-primary font-bold tracking-normal">{{ title }}</h6>
         <p class="text-grey-50 text-sm font-normal mt-3.5">{{ description }}</p>
         <CardLink class="mt-5" :href="link">Enroll Now</CardLink>
     </div>

@@ -16,6 +16,7 @@ const handleToggleMenu = () => {
     <MobileMenu :menu-is-visble="isMenuVisible" @toggle-menu="handleToggleMenu" />
     <Header @toggle-menu="handleToggleMenu" />
     <div class="h-[var(--navbar-height)]"></div>
+    <!-- Add relative positioning to main to create a stack context -->
     <main class="bg-secondary-1 relative z-10">
         <slot></slot>
     </main>

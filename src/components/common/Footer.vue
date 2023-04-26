@@ -11,7 +11,7 @@ const year = new Date().getFullYear();
 <template>
     <footer class="pt-12 pb-10 md:pt-20 bg-primary-1 space-y-16">
         <div
-            class="axia-container axia-gutter grid grid-cols-2 text-grey-10 text-base tracking-wider md:grid-cols-4 lg:grid-cols-5 gap-12">
+            class="axia-container axia-gutter grid grid-cols-2 text-grey-10 text-sm tracking-wider md:grid-cols-4 lg:grid-cols-5 gap-12">
             <div class="col-span-2 order-1">
                 <div class="w-20 h-10 mb-3">
                     <img src="/logo-white.svg" alt="White Logo" class="w-full h-full object-fill" />

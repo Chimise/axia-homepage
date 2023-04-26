@@ -5,7 +5,7 @@ import CustomLink from '../ui/CustomLink.vue';
 <template>
     <section class="relative pt-5 pb-40 overflow-hidden">
       <div class="axia-container axia-gutter flex flex-col text-center items-center">
-        <h3 class="text-3xl font-medium md:text-4xl mb-8">Partner With Us</h3>
+        <h3 class="text-3xl font-semibold md:text-4xl mb-8">Partner With Us</h3>
         <p class="md:max-w-screen-md mb-20">Do you have a passion for making impact and inspiring to the tech space? Partner with us at Axia Africa and
           share our passion of leading a generation of tech talents waiting to be tapped.</p>
         <CustomLink href="">

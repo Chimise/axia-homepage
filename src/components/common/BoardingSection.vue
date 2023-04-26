@@ -5,7 +5,7 @@ import Quote from '../icons/Quote.vue';
 <template>
     <section class="bg-primary py-14 md:py-32 text-white">
         <div class="axia-container axia-gutter">
-            <header class="font-medium text-3xl md:text-4xl">
+            <header class="font-semibold tracking-tight text-3xl md:text-4xl">
                 <h3>Get Onboard with Us</h3>
             </header>
             <div class="flex flex-wrap-reverse mt-10 md:-mx-4 md:mt-14">
@@ -29,7 +29,7 @@ import Quote from '../icons/Quote.vue';
             <div class="space-y-6 md:space-y-7">
                 <div class="flex items-center space-x-4 mt-5 md:mt-7">
                     <span class="w-20 h-1 bg-white"></span>
-                    <h6 class="font-medium text-3xl">Why Choose Us</h6>
+                    <h6 class="font-semibold text-2xl md:text-3xl">Why Choose Us</h6>
                 </div>
                 <p class="leading-7">
                     We at Axia Africa are intentional about our students and focused about building a community. The tech
@@ -38,6 +38,7 @@ import Quote from '../icons/Quote.vue';
                     sharpen
                     your skills to give you leverage in your career while navigating the job market
                 </p>
+            </div>
         </div>
-    </div>
-</section></template>
+    </section>
+</template>

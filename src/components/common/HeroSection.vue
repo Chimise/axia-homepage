@@ -8,7 +8,7 @@ import ArrowLeft from '../icons/ArrowLeft.vue';
     <section class="pt-[60px] lg:pt-[90px] pb-6 relative">
         <div class="axia-container axia-gutter">
             <div class="text-center lg:text-left space-y-8 mb-10">
-                <h1 class="text-primary text-3xl lg:text-[2.8rem] font-medium lg:max-w-xl leading-normal">Accelerate your
+                <h1 class="text-primary text-3xl lg:text-[2.8rem] font-semibold lg:max-w-xl tracking-tight leading-normal">Accelerate your
                     career
                     with <span
                         class="bg-[linear-gradient(65deg,#ab2638,#f0b73f)] bg-clip-text [-webkit-text-fill-color:transparent]">Job-ready</span>
@@ -21,8 +21,8 @@ import ArrowLeft from '../icons/ArrowLeft.vue';
                         Apply Now
                     </CustomLink>
                     <div
-                        class="group inline-flex items-center space-x-2 stroke-[2px] font-medium text-base text-primary-1 cursor-pointer">
-                        <span class="underline">Speak with an advisor</span>
+                        class="group inline-flex items-center space-x-2 stroke-[2px] font-semibold text-base text-primary-1 cursor-pointer">
+                        <span class="underline">Speak with an Advisor</span>
                         <ArrowLeft
                             class="w-8 h-6 translate-x-0 transition-transform duration-150 ease-linear group-hover:translate-x-2" />
                     </div>

@@ -13,6 +13,7 @@ const emit = defineEmits<Emits>();
 </script>
 
 <template>
+    <!-- Use a wrapper around header to prevent overflowing from screen -->
     <div class="relative z-20 overflow-hidden">
         <header class="fixed shadow-md z-20 bg-secondary-1 inset-x-0 top-0 h-[var(--navbar-height)] md:shadow-none">
         <div class="flex items-center justify-between h-full axia-gutter py-4 md:py-6 axia-container">

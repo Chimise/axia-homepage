@@ -10,7 +10,7 @@ import {schoolList} from '@/index';
       </div>
       <div class="axia-container axia-gutter">
         <div class="text-primary space-y-6">
-          <h3 class="font-medium text-3xl">Discover the right school for your journey</h3>
+          <h3 class="font-semibold text-3xl tracking-tight">Discover the right school for your journey</h3>
           <p class="leading-7">Axia Africa offers you the chance to explore schools which has variety of courses to learn
             from, like product
             design, Front end,</p>

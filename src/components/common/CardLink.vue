@@ -11,7 +11,7 @@ const { href } = withDefaults(defineProps<CardLinkProps>(), {
 </script>
 
 <template>
-    <a :href="href" class="group inline-flex items-center space-x-2 stroke-[2px] font-medium text-base text-primary-1 cursor-pointer">
+    <a :href="href" class="group inline-flex items-center space-x-2 stroke-[2px] font-semibold text-base text-primary-1 cursor-pointer">
         <span class="underline"><slot /></span>
         <ArrowLeft class="w-8 h-6 translate-x-0 transition-transform duration-150 ease-linear group-hover:translate-x-2" />
     </a>

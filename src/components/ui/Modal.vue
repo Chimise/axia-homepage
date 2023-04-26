@@ -12,6 +12,7 @@ const emits = defineEmits<Emits>()
 
 
 <template>
+    <!-- Render the modal in the div container with the id modal -->
     <Teleport to="#modal" v-if="isVisible">
         <div class="relative z-40 overflow-hidden">
             <div class="fixed inset-0 flex items-center justify-center">
