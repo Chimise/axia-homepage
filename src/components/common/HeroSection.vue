@@ -1,6 +1,11 @@
 <script setup lang="ts">
 import CustomLink from '../ui/CustomLink.vue';
 import ArrowLeft from '../icons/ArrowLeft.vue';
+import useModal from '../hooks/useModal';
+import CardLink from './CardLink.vue';
+
+const {handleOpen} = useModal();
+
 </script>
 
 
@@ -20,12 +25,9 @@ import ArrowLeft from '../icons/ArrowLeft.vue';
                     <CustomLink href="/">
                         Apply Now
                     </CustomLink>
-                    <div
-                        class="group inline-flex items-center space-x-2 stroke-[2px] font-semibold text-base text-primary-1 cursor-pointer">
-                        <span class="underline">Speak with an Advisor</span>
-                        <ArrowLeft
-                            class="w-8 h-6 translate-x-0 transition-transform duration-150 ease-linear group-hover:translate-x-2" />
-                    </div>
+                    <CardLink href="" @click.prevent="handleOpen">
+                        Speak with an Advisor
+                    </CardLink>
                 </div>
             </div>
             <div

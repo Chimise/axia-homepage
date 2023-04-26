@@ -1,17 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import CustomLink from '../ui/CustomLink.vue';
-import HelpModal from './HelpModal.vue';
+import useModal from '../hooks/useModal';
 
-const isVisible = ref(false);
-
-const handleModalOpen = () => {
-    isVisible.value = true;
-}
-
-const handleModalClose = () => {
-    isVisible.value = false;
-}
+const {handleOpen} = useModal();
 
 </script>
 
@@ -27,12 +19,11 @@ const handleModalClose = () => {
                         being an
                         expert in your desired field.
                     </p>
-                    <CustomLink href="/" @click.prevent="handleModalOpen"
+                    <CustomLink href="/" @click.prevent="handleOpen"
                         foreground-class="border-white text-white shadow-white"
                         hover-class="hover:bg-white hover:text-primary-1 hover:shadow-secondary">
                         Speak with an adviser
                     </CustomLink>
-                    <HelpModal :is-visible="isVisible" @close="handleModalClose" />
                 </div>
                 <div class="w-full py-8 md:p-4 md:w-1/2">
                     <img src="/advisor.svg" alt="Course Advisor" />

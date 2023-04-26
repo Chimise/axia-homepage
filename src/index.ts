@@ -1,3 +1,4 @@
+import type { InjectionKey, Ref } from "vue";
 
 export const schools = [{link: '', name: 'School of Product' }, {link: '', name: 'School of Data'}, {link: '', name: 'School of Engineering'}];
 
@@ -82,3 +83,11 @@ export const testimonials = [
       image: '/person7.png',
     },
   ]
+
+interface MenuKey {
+    modalIsVisible: Ref<boolean>;
+    handleOpen(): void;
+    handleClose(): void;
+}
+
+export const menuKey = Symbol('menu') as InjectionKey<MenuKey>;
