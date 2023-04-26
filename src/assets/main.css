@@ -1,0 +1,28 @@
+@import "./variables.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: @apply bg-supplementary;
+  }
+}
+
+
+@layer components {
+  .axia-container {
+    @apply mx-auto w-[95%] max-w-5xl;
+  }
+
+  .axia-gutter {
+    @apply px-4;
+  }
+
+  @media (min-width: 768px) {
+    .axia-container {
+      @apply w-[90%];
+    }
+  }
+}

@@ -1,0 +1,10 @@
+:root {
+    --navbar-height: 50px;
+}
+
+
+@media screen and (min-width: 768px) {
+    :root {
+        --navbar-height: 100px;
+    }
+}

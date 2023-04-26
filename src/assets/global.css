@@ -1,0 +1,23 @@
+.image-mover {
+    animation-name: moveimage;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+  }
+  
+  @keyframes moveimage {
+    from {
+      transform: translateY(0%);
+    }
+  
+    to {
+      transform: translateY(-30%);
+    }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .image-mover {
+      animation: none;
+    }
+  }
